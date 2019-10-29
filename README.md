@@ -539,14 +539,14 @@ Support [WeChat Mini Program](https://mp.weixin.qq.com/). See [Doc](https://mp.w
 
 ```js
 var mqtt = require('mqtt')
-var client = mqtt.connect('wxs://test.mosquitto.org')
+var client = mqtt.connect('wxs://test.mosquitto.org:8081')
 ```
 
 ## Example(ts)
 
 ```ts
 import { connect } from 'mqtt';
-const client = connect('wxs://test.mosquitto.org');
+const client = connect('wxs://test.mosquitto.org:8081');
 ```
 
 ## Ali Mini Program
